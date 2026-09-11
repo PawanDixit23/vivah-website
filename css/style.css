@@ -1209,3 +1209,122 @@ button, input {
     padding: 0 20px;
   }
 }
+
+/* ==========================================================================
+   LEGAL PAGES (Privacy Policy & Terms of Service)
+   ========================================================================== */
+.legal-hero {
+  background: linear-gradient(180deg, var(--color-vistara-dark) 0%, var(--color-vistara) 100%);
+  color: var(--color-white);
+  padding: 130px 0 60px;
+  text-align: center;
+}
+
+.legal-hero-tag {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 18px;
+  border-radius: var(--radius-full);
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.legal-hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.legal-hero-date {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.legal-wrapper {
+  max-width: 960px;
+  margin: -30px auto 90px;
+  background: #ffffff;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eae5e7;
+  padding: 56px 64px;
+  position: relative;
+  z-index: 10;
+}
+
+.legal-section {
+  margin-bottom: 40px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #f0ecf0;
+}
+
+.legal-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.legal-section h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--color-vistara);
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.legal-section p {
+  font-size: 1.02rem;
+  color: #3b3b3b;
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+
+.legal-section ul {
+  margin: 14px 0 18px 24px;
+  color: #444;
+  line-height: 1.75;
+}
+
+.legal-section li {
+  margin-bottom: 8px;
+}
+
+.legal-callout-box {
+  background: var(--color-dull-yellow);
+  border-left: 4px solid var(--color-vistara);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  margin: 20px 0;
+  font-size: 0.96rem;
+  color: #2e2e2e;
+}
+
+.back-home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-vistara);
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+.back-home-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .legal-wrapper {
+    padding: 32px 20px;
+    margin: -20px 16px 60px;
+  }
+}
