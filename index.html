@@ -2,256 +2,263 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vivah — Vedic Matchmaking & 18+ Verified Connections</title>
-  <meta name="description" content="India's most trusted matrimony app. AI-powered Vedic matchmaking with 18+ government ID verification, community vouching, and total privacy controls." />
-  <meta property="og:title" content="Vivah — Find Your Perfect Life Partner" />
-  <meta property="og:description" content="Vedic Matchmaking & 18+ Verified Connections. Zero fake accounts." />
-  <meta property="og:image" content="images/app-mockup.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Vivah | India's Elite AI Matrimony & Sacred Matchmaking</title>
+  <meta name="description" content="Vivah is an exclusive, invite-only matrimonial matchmaking platform in India. AI-powered Vedic matchmaking, 100% ID-verified profiles, and total privacy for high-intent singles." />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Vivah | India's Elite AI Matrimony & Sacred Matchmaking" />
+  <meta property="og:description" content="Tired of casual dating? Find your sacred union with 100% verified profiles, AI compatibility, and total privacy." />
+  <meta property="og:image" content="images/hero-bg.jpg" />
+  
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- NAVIGATION -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#" class="nav-logo">
-        <span class="logo-icon">🕉️</span>
-        <span class="logo-text">Vivah</span>
-        <span class="logo-badge">ROYAL</span>
-      </a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#features" class="nav-link">Features</a></li>
-        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
-        <li><a href="#trust" class="nav-link">Trust & Safety</a></li>
-        <li><a href="#vouch" class="nav-link">Community Vouch</a></li>
-        <li><a href="#download" class="nav-link nav-cta-link">Download App</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
+
+  <!-- =========================================================================
+       HEADER / NAVIGATION
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="nav-inner">
+      <div class="brand-wrapper">
+        <a href="#hero" class="nav-brand">
+          <span>Vivah</span>
+          <span class="brand-knot">✦</span>
+        </a>
+        <span class="brand-subtext">India's Elite AI Matchmaker</span>
+      </div>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about-us" class="nav-link">About Us</a></li>
+          <li><a href="#ai-matchmaker" class="nav-link">AI Matchmaker</a></li>
+          <li><a href="#why-vivah" class="nav-link">Why Vivah</a></li>
+          <li><a href="#investors" class="nav-link">Investors</a></li>
+          <li><a href="#press" class="nav-link">Press</a></li>
+          <li><a href="#contact-us" class="btn-pill-outline">Contact Us</a></li>
+          <li><a href="#download" class="btn-pill-solid">Get the App</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
       </button>
     </div>
-  </nav>
+  </header>
 
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero-bg-glow glow-1"></div>
-    <div class="hero-bg-glow glow-2"></div>
-    <div class="hero-bg-glow glow-3"></div>
-    <div class="hero-container">
+  <!-- =========================================================================
+       HERO SECTION (100svh Full Height with Editorial Typography)
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop">
+      <img src="images/hero-bg.jpg" alt="Vivah Couple" class="hero-img" fetchpriority="high" />
+      <div class="hero-overlay-scrim"></div>
+    </div>
+
+    <div class="hero-content-wrap">
       <div class="hero-content">
-        <div class="hero-badge animate-fade-up">
-          <span class="badge-dot"></span>
-          India's Most Trusted Matrimony App
+        <div class="hero-subtag">
+          <span class="hero-subtag-dot"></span>
+          India's Premier AI Matrimonial Platform
         </div>
-        <h1 class="hero-title animate-fade-up delay-1">
-          Find Your<br/>
-          <span class="gradient-text">Perfect Life</span><br/>
-          Partner
+        <h1 class="hero-headline">
+          Tired of casual dating?<br />
+          Now find your sacred union.
         </h1>
-        <p class="hero-subtitle animate-fade-up delay-2">
-          Vedic Matchmaking meets modern technology.<br/>
-          18+ Government ID verified, zero fake accounts,<br/>
-          with community vouching for <strong>3x faster rishta</strong>.
-        </p>
-        <div class="hero-actions animate-fade-up delay-3">
-          <a href="#download" class="btn-primary" id="hero-download-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.42c1.32.07 2.24.82 3.02.85.93-.17 1.82-.94 3.17-.84 1.45.12 2.56.7 3.26 1.83-2.92 1.76-2.42 5.75.24 6.94-.56 1.45-1.3 2.87-1.69 4.08zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-            App Store
-          </a>
-          <a href="#download" class="btn-secondary" id="hero-play-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/></svg>
-            Google Play
-          </a>
-        </div>
-        <div class="hero-stats animate-fade-up delay-4">
-          <div class="stat-item">
-            <span class="stat-number">50K+</span>
-            <span class="stat-label">Verified Profiles</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-number">12K+</span>
-            <span class="stat-label">Successful Rishtas</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-number">4.9&#9733;</span>
-            <span class="stat-label">App Rating</span>
-          </div>
-        </div>
-      </div>
-      <div class="hero-visual animate-slide-right">
-        <div class="phone-frame">
-          <div class="phone-glow"></div>
-          <img src="images/app-mockup.jpg" alt="Vivah App Screenshot" class="phone-screen" loading="eager" />
-        </div>
-        <div class="floating-badge badge-verified animate-float-1">✅ 18+ Govt Verified</div>
-        <div class="floating-badge badge-match animate-float-2">🪐 34/36 Gunas Match</div>
-        <div class="floating-badge badge-vouch animate-float-3">🤝 3 Community Vouches</div>
-      </div>
-    </div>
-    <div class="hero-scroll-indicator"><div class="scroll-dot"></div></div>
-  </section>
-
-  <!-- TRUST BAND -->
-  <section class="trust-band">
-    <div class="trust-band-inner">
-      <span class="trust-band-label">Featured In</span>
-      <div class="trust-logos">
-        <span class="trust-logo-text">Times of India</span>
-        <span class="trust-sep">·</span>
-        <span class="trust-logo-text">Economic Times</span>
-        <span class="trust-sep">·</span>
-        <span class="trust-logo-text">NDTV</span>
-        <span class="trust-sep">·</span>
-        <span class="trust-logo-text">YourStory</span>
-        <span class="trust-sep">·</span>
-        <span class="trust-logo-text">Inc42</span>
       </div>
     </div>
   </section>
 
-  <!-- FEATURES -->
-  <section class="features" id="features">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Why Vivah?</span>
-        <h2 class="section-title">Everything You Need for a<br/><span class="gradient-text">Sacred Union</span></h2>
-        <p class="section-sub">Built for modern India — tradition meets technology in every match.</p>
-      </div>
-      <div class="features-grid">
-        <div class="feature-card feature-card-large" data-scroll-reveal>
-          <div class="feature-icon-wrap gold"><span class="feature-icon">🪐</span></div>
-          <h3 class="feature-title">AI + Vedic Kundali Matching</h3>
-          <p class="feature-desc">Our proprietary algorithm combines 36-point Guna Milan with modern compatibility analysis — finding your Uttam Rishta with 30+ Gunas guaranteed.</p>
-          <div class="feature-tags">
-            <span class="ftag">36 Gunas</span><span class="ftag">Rashi Match</span><span class="ftag">Nakshatra</span><span class="ftag">Manglik</span>
+  <!-- =========================================================================
+       PEDIGREE MARQUEE ("Built for India's Top 1% Singles")
+       ========================================================================= -->
+  <section class="pedigree-section" id="pedigree">
+    <div class="container">
+      <h2 class="pedigree-title">Built for India's Accomplished & Top 1% Singles</h2>
+      <div class="marquee-container">
+        <div class="marquee-track" id="marquee-track">
+          <!-- Item 1 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🏛️</span>
+            <span class="institute-name">Harvard University</span>
           </div>
-        </div>
-        <div class="feature-card" data-scroll-reveal>
-          <div class="feature-icon-wrap green"><span class="feature-icon">🛡️</span></div>
-          <h3 class="feature-title">18+ Govt ID Verified</h3>
-          <p class="feature-desc">Every profile is verified with government ID. Zero fake accounts, zero bots — guaranteed authenticity.</p>
-        </div>
-        <div class="feature-card" data-scroll-reveal>
-          <div class="feature-icon-wrap purple"><span class="feature-icon">🤝</span></div>
-          <h3 class="feature-title">Community Vouching</h3>
-          <p class="feature-desc">Friends, colleagues and neighbours vouch for candidates — boosting trust by 300% and responses 3x faster.</p>
-        </div>
-        <div class="feature-card" data-scroll-reveal>
-          <div class="feature-icon-wrap red"><span class="feature-icon">👁️</span></div>
-          <h3 class="feature-title">Ghost Mode & Privacy Shield</h3>
-          <p class="feature-desc">Full privacy controls — blur photos, ghost mode, screenshot blocking, and Parent View Mode.</p>
-        </div>
-        <div class="feature-card" data-scroll-reveal>
-          <div class="feature-icon-wrap blue"><span class="feature-icon">💬</span></div>
-          <h3 class="feature-title">Live Call & Wingman AI</h3>
-          <p class="feature-desc">In-app voice/video calls with AI conversation starter (Wingman) to break the ice gracefully.</p>
-        </div>
-        <div class="feature-card" data-scroll-reveal>
-          <div class="feature-icon-wrap gold"><span class="feature-icon">📄</span></div>
-          <h3 class="feature-title">15-Page Vedic Biodata PDF</h3>
-          <p class="feature-desc">Auto-generate a stunning family biodata with Kundali, photos, and family values — share instantly.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+          <!-- Item 2 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🔬</span>
+            <span class="institute-name">Massachusetts Institute of Technology</span>
+          </div>
+          <!-- Item 3 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🌲</span>
+            <span class="institute-name">Stanford University</span>
+          </div>
+          <!-- Item 4 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🎓</span>
+            <span class="institute-name">IIT Bombay</span>
+          </div>
+          <!-- Item 5 -->
+          <div class="institute-pill">
+            <span class="institute-icon">⚡</span>
+            <span class="institute-name">IIT Delhi</span>
+          </div>
+          <!-- Item 6 -->
+          <div class="institute-pill">
+            <span class="institute-icon">📈</span>
+            <span class="institute-name">IIM Ahmedabad</span>
+          </div>
+          <!-- Item 7 -->
+          <div class="institute-pill">
+            <span class="institute-icon">💼</span>
+            <span class="institute-name">IIM Bangalore</span>
+          </div>
+          <!-- Item 8 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🩺</span>
+            <span class="institute-name">AIIMS New Delhi</span>
+          </div>
+          <!-- Item 9 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🏛️</span>
+            <span class="institute-name">University of Cambridge</span>
+          </div>
+          <!-- Item 10 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🌟</span>
+            <span class="institute-name">Indian School of Business (ISB)</span>
+          </div>
+          <!-- Item 11 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🔬</span>
+            <span class="institute-name">Indian Institute of Science (IISc)</span>
+          </div>
+          <!-- Item 12 -->
+          <div class="institute-pill">
+            <span class="institute-icon">💡</span>
+            <span class="institute-name">BITS Pilani</span>
+          </div>
+          <!-- Item 13 -->
+          <div class="institute-pill">
+            <span class="institute-icon">🚀</span>
+            <span class="institute-name">IIT Kanpur</span>
+          </div>
+          <!-- Item 14 -->
+          <div class="institute-pill">
+            <span class="institute-icon">📊</span>
+            <span class="institute-name">IIM Calcutta</span>
+          </div>
 
-  <!-- HOW IT WORKS -->
-  <section class="how-it-works" id="how-it-works">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Simple & Sacred</span>
-        <h2 class="section-title">Your Journey to a<br/><span class="gradient-text">Blissful Marriage</span></h2>
-      </div>
-      <div class="steps-container">
-        <div class="step" data-scroll-reveal>
-          <div class="step-number">01</div>
-          <div class="step-content">
-            <h3>Create Verified Profile</h3>
-            <p>Sign up, upload Govt ID for 18+ verification, add Kundali details, photos, and family background.</p>
+          <!-- Duplicate for seamless infinite loop -->
+          <div class="institute-pill">
+            <span class="institute-icon">🏛️</span>
+            <span class="institute-name">Harvard University</span>
           </div>
-          <div class="step-icon">📱</div>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step" data-scroll-reveal>
-          <div class="step-number">02</div>
-          <div class="step-content">
-            <h3>Get Community Vouched</h3>
-            <p>Share your profile link on WhatsApp — let friends and colleagues vouch for your character in 30 seconds.</p>
+          <div class="institute-pill">
+            <span class="institute-icon">🔬</span>
+            <span class="institute-name">Massachusetts Institute of Technology</span>
           </div>
-          <div class="step-icon">🤝</div>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step" data-scroll-reveal>
-          <div class="step-number">03</div>
-          <div class="step-content">
-            <h3>AI Finds Your Matches</h3>
-            <p>Our Vedic AI engine scores 36 Gunas, compatibility, and lifestyle to surface your Uttam Rishta daily.</p>
+          <div class="institute-pill">
+            <span class="institute-icon">🌲</span>
+            <span class="institute-name">Stanford University</span>
           </div>
-          <div class="step-icon">🪐</div>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step" data-scroll-reveal>
-          <div class="step-number">04</div>
-          <div class="step-content">
-            <h3>Connect and Celebrate</h3>
-            <p>Chat, call, share your Vedic biodata — and begin the sacred journey toward your perfect union.</p>
+          <div class="institute-pill">
+            <span class="institute-icon">🎓</span>
+            <span class="institute-name">IIT Bombay</span>
           </div>
-          <div class="step-icon">💍</div>
+          <div class="institute-pill">
+            <span class="institute-icon">⚡</span>
+            <span class="institute-name">IIT Delhi</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">📈</span>
+            <span class="institute-name">IIM Ahmedabad</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">💼</span>
+            <span class="institute-name">IIM Bangalore</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">🩺</span>
+            <span class="institute-name">AIIMS New Delhi</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">🏛️</span>
+            <span class="institute-name">University of Cambridge</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">🌟</span>
+            <span class="institute-name">Indian School of Business (ISB)</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">🔬</span>
+            <span class="institute-name">Indian Institute of Science (IISc)</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">💡</span>
+            <span class="institute-name">BITS Pilani</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">🚀</span>
+            <span class="institute-name">IIT Kanpur</span>
+          </div>
+          <div class="institute-pill">
+            <span class="institute-icon">📊</span>
+            <span class="institute-name">IIM Calcutta</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COMMUNITY VOUCH -->
-  <section class="vouch-section" id="vouch">
-    <div class="section-container">
-      <div class="vouch-grid">
-        <div class="vouch-content" data-scroll-reveal>
-          <span class="section-tag">Unique to Vivah</span>
-          <h2 class="section-title">Community Vouching —<br/><span class="gradient-text">Trust from Real People</span></h2>
-          <p class="section-sub">Unlike traditional matrimony sites, Vivah lets your friends, colleagues, and neighbors vouch for your character — giving matches the confidence to respond 3x faster.</p>
-          <div class="vouch-features">
-            <div class="vouch-feature-item"><div class="vouch-feature-icon">💼</div><div><strong>Colleague Vouches</strong><p>Co-workers confirm your professional integrity and character.</p></div></div>
-            <div class="vouch-feature-item"><div class="vouch-feature-icon">🤝</div><div><strong>Friend Vouches</strong><p>Close friends share genuine testimonials about your personality.</p></div></div>
-            <div class="vouch-feature-item"><div class="vouch-feature-icon">🏠</div><div><strong>Neighbour Vouches</strong><p>Neighbours vouch for your family values and respectability.</p></div></div>
-            <div class="vouch-feature-item"><div class="vouch-feature-icon">👨‍👩‍👧</div><div><strong>Relative Vouches</strong><p>Family members confirm your background and upbringing.</p></div></div>
-          </div>
-          <div class="vouch-stat-row">
-            <div class="vouch-stat"><span class="vouch-stat-num">300%</span><span class="vouch-stat-label">Trust boost</span></div>
-            <div class="vouch-stat"><span class="vouch-stat-num">3x</span><span class="vouch-stat-label">Faster responses</span></div>
-            <div class="vouch-stat"><span class="vouch-stat-num">30s</span><span class="vouch-stat-label">OTP verified vouch</span></div>
-          </div>
-        </div>
-        <div class="vouch-visual" data-scroll-reveal>
-          <div class="vouch-card-demo">
-            <div class="vcd-header">
-              <div class="vcd-avatar">PS</div>
-              <div><div class="vcd-name">Priya Sharma</div><div class="vcd-sub">Community Endorsements</div></div>
-              <div class="vcd-badge">✅ 4 Vouches</div>
+  <!-- =========================================================================
+       "WHO WE ARE?" SECTION (Rotated Polaroid Card + High-Intent Copy)
+       ========================================================================= -->
+  <section class="about-section" id="about-us">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Left: Rotated Polaroid Card -->
+        <div class="polaroid-wrapper">
+          <div class="polaroid-card">
+            <div class="polaroid-image-box">
+              <img src="images/about-us.jpg" alt="Happily Married Couple on Vivah" loading="lazy" />
             </div>
-            <div class="vcd-vouches">
-              <div class="vcd-vouch-item">
-                <div class="vcd-vouch-avatar">R</div>
-                <div class="vcd-vouch-body">
-                  <div class="vcd-vouch-name">Rahul M. <span class="vcd-relation">💼 Colleague</span></div>
-                  <div class="vcd-vouch-msg">"Priya is an exceptionally honest and hardworking person with great family values."</div>
-                  <div class="vcd-vouch-tags"><span>Honest</span><span>Hardworking</span><span>Kind</span></div>
-                </div>
-              </div>
-              <div class="vcd-vouch-item">
-                <div class="vcd-vouch-avatar">A</div>
-                <div class="vcd-vouch-body">
-                  <div class="vcd-vouch-name">Anita K. <span class="vcd-relation">🤝 Friend</span></div>
-                  <div class="vcd-vouch-msg">"Known her for 8 years — extremely cultured, comes from a wonderful family."</div>
-                  <div class="vcd-vouch-tags"><span>Cultured</span><span>Respectful</span></div>
-                </div>
-              </div>
-              <div class="vcd-otp-badge">🔐 OTP Verified Endorsements</div>
+            <div class="polaroid-caption">Pure Intent • Sacred Unions</div>
+          </div>
+        </div>
+
+        <!-- Right: Editorial Narrative -->
+        <div class="about-content">
+          <span class="section-tag">Our Philosophy</span>
+          <h2 class="serif-title about-title">Who we are?</h2>
+          <div class="about-paragraphs">
+            <p>
+              At <strong>Vivah</strong>, we're here to help you find the perfect partner for life.
+            </p>
+            <p>
+              If you're serious about finding your life partner, you deserve to meet others who share the exact same dedication. As an exclusive, invite-only matrimonial service, we focus on bringing together accomplished individuals who are ready for a lifelong commitment — not endless superficial swiping.
+            </p>
+            <p>
+              With total privacy controls and the blend of our proprietary Vedic AI matching engine with seasoned matrimonial advisors, we carefully understand your family values, astrology, and personal aspirations to present only 100% verified, high-quality matches.
+            </p>
+          </div>
+
+          <div class="about-stats-row">
+            <div class="about-stat-item">
+              <h4>100%</h4>
+              <p>Govt ID Verified</p>
+            </div>
+            <div class="about-stat-item">
+              <h4>34+</h4>
+              <p>Avg. Guna Compatibility</p>
+            </div>
+            <div class="about-stat-item">
+              <h4>0%</h4>
+              <p>Fake or Inactive Profiles</p>
             </div>
           </div>
         </div>
@@ -259,95 +266,403 @@
     </div>
   </section>
 
-  <!-- TRUST & SAFETY -->
-  <section class="trust-safety" id="trust">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">18+ Trust & Safety Center</span>
-        <h2 class="section-title">Zero Fake Accounts.<br/><span class="gradient-text">Total Privacy Control.</span></h2>
-        <p class="section-sub">Vivah is built on a foundation of verified trust — every feature designed to protect you.</p>
+  <!-- =========================================================================
+       "VIVAH IS AN AI MATCHMAKER" (4 Pillar Feature Grid)
+       ========================================================================= -->
+  <section class="ai-matchmaker-section" id="ai-matchmaker">
+    <div class="container">
+      <div class="section-head-center">
+        <span class="section-tag">Intelligent Compatibility</span>
+        <h2 class="serif-title section-headline">Vivah is an AI Matchmaker</h2>
+        <p class="section-subhead">That talks to you, understands your values, and finds the right life partner for you</p>
       </div>
-      <div class="trust-grid">
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">🛡️</div><h4>18+ Govt ID Verified</h4><p>Mandatory government ID verification for all profiles. Adults only, zero exceptions.</p></div>
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">👻</div><h4>Ghost Mode</h4><p>Go invisible from public discovery while you browse privately at your own pace.</p></div>
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">📸</div><h4>Photo Blur Privacy</h4><p>Photos stay blurred until you accept a connection — protecting your identity always.</p></div>
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">🚫</div><h4>Screenshot Block</h4><p>Advanced screen capture prevention — your photos can never be saved without consent.</p></div>
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">👨‍👩‍👧</div><h4>Parent View Mode</h4><p>Share a family-friendly biodata view with parents — chat and photos automatically hidden.</p></div>
-        <div class="trust-card" data-scroll-reveal><div class="trust-card-icon">✅</div><h4>Selfie Verified</h4><p>Live selfie verification ensures profile photos match the real person — no catfishing.</p></div>
+
+      <div class="ai-features-grid">
+        <!-- Pillar 1 -->
+        <div class="ai-feature-card">
+          <div class="feature-visual-box">
+            <img src="images/feature-ai-talk.jpg" alt="Talk to our AI" loading="lazy" />
+          </div>
+          <h3 class="feature-card-title">Talk to our AI</h3>
+          <p class="feature-card-desc">Conversational AI deeply analyzes your background, communication style, and lifelong expectations.</p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="ai-feature-card">
+          <div class="feature-visual-box">
+            <img src="images/feature-curated.jpg" alt="Curated Profiles" loading="lazy" />
+          </div>
+          <h3 class="feature-card-title">Curated Profiles</h3>
+          <p class="feature-card-desc">Handpicked, background-verified candidates matched using 36-point Vedic and lifestyle parameters.</p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="ai-feature-card">
+          <div class="feature-visual-box">
+            <img src="images/feature-setup-date.jpg" alt="Setup Rishta Meetings" loading="lazy" />
+          </div>
+          <h3 class="feature-card-title">Setup Rishta Meetings</h3>
+          <p class="feature-card-desc">Seamless introduction coordination, calendar sync, private video calls, and comfortable first meetings.</p>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="ai-feature-card">
+          <div class="feature-visual-box">
+            <img src="images/feature-match-advisor.jpg" alt="Talk to Match Advisor" loading="lazy" />
+          </div>
+          <h3 class="feature-card-title">Talk to Match Advisor</h3>
+          <p class="feature-card-desc">Personal human matrimonial concierge and astrologers to assist with sensitive, family discussions.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
-  <section class="testimonials">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Success Stories</span>
-        <h2 class="section-title">Real People, <span class="gradient-text">Real Love Stories</span></h2>
+  <!-- =========================================================================
+       "WHY VIVAH / TRUST & ENDORSEMENT" SECTION
+       ========================================================================= -->
+  <section class="trust-section" id="why-vivah">
+    <div class="container">
+      <div class="section-head-center" style="margin-bottom: 32px;">
+        <span class="section-tag">Integrity & Excellence</span>
+        <h2 class="serif-title section-headline">Built by Visionaries, Trusted by Families</h2>
+        <p class="section-subhead">Redefining modern matrimony with authenticity, safety, and serious intent.</p>
       </div>
-      <div class="testimonials-grid">
-        <div class="testimonial-card" data-scroll-reveal>
-          <div class="test-quote">"Vivah's Kundali AI matched us with 34 Gunas — our families couldn't believe how perfectly compatible we were. Married in just 4 months!"</div>
-          <div class="test-author"><div class="test-avatar">AK</div><div><div class="test-name">Arjun & Kavya</div><div class="test-detail">Mumbai · Brahmin · Married June 2025</div></div><div class="test-stars">★★★★★</div></div>
+
+      <div class="trust-wrapper">
+        <!-- Left: Founder Showcase Card -->
+        <div class="trust-portrait-card">
+          <img src="images/founders-showcase.jpg" alt="Leadership & Trust" loading="lazy" />
+          <div class="portrait-badge-overlay">
+            <div class="portrait-badge-title">Built with Pure Intent</div>
+            <div class="portrait-badge-sub">Empowering India's next generation to find lifelong partners</div>
+          </div>
         </div>
-        <div class="testimonial-card" data-scroll-reveal>
-          <div class="test-quote">"The community vouching feature gave my parents full confidence. Three of my colleagues vouched for me and his family immediately agreed to meet!"</div>
-          <div class="test-author"><div class="test-avatar">SP</div><div><div class="test-name">Sneha & Prakash</div><div class="test-detail">Pune · Engineer Couple · Married Dec 2025</div></div><div class="test-stars">★★★★★</div></div>
-        </div>
-        <div class="testimonial-card" data-scroll-reveal>
-          <div class="test-quote">"As a woman, safety was my biggest concern. Vivah's Ghost Mode and Photo Blur made me feel completely safe while searching for my soulmate."</div>
-          <div class="test-author"><div class="test-avatar">RM</div><div><div class="test-name">Riya & Mohit</div><div class="test-detail">Delhi · IT Professional · Married Feb 2026</div></div><div class="test-stars">★★★★★</div></div>
+
+        <!-- Right: 3 Value Proposition Cards -->
+        <div class="trust-cards-grid">
+          <!-- Card 1 -->
+          <div class="trust-value-card">
+            <div class="trust-icon-box">⭐</div>
+            <h3 class="trust-card-headline">10+ Years of Matchmaking Wisdom</h3>
+            <p class="trust-card-text">
+              Our seasoned matchmakers collaborate with cutting-edge algorithmic intelligence to understand your subtlest preferences and surface true lifelong harmony.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="trust-value-card">
+            <div class="trust-icon-box">🛡️</div>
+            <h3 class="trust-card-headline">100% Verified Profiles</h3>
+            <p class="trust-card-text">
+              Mandatory government ID verification, income authentication, and live selfie validation. Zero fake accounts, zero bots, zero ghosting.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="trust-value-card">
+            <div class="trust-icon-box">🔒</div>
+            <h3 class="trust-card-headline">Total Privacy Control</h3>
+            <p class="trust-card-text">
+              Your profile is never open to public web search. Photographs and intimate background details remain concealed until mutual consent is granted.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- DOWNLOAD -->
-  <section class="download-section" id="download">
-    <div class="download-glow-1"></div>
-    <div class="download-glow-2"></div>
-    <div class="section-container">
-      <div class="download-content">
-        <span class="section-tag">Begin Your Journey</span>
-        <h2 class="download-title">Download Vivah<br/><span class="gradient-text">Free Today</span></h2>
-        <p class="section-sub" style="color:rgba(255,255,255,0.7);">Join 50,000+ verified profiles and start your sacred journey toward a blissful marriage. Always free to join.</p>
-        <div class="download-buttons">
-          <a href="#" class="store-btn" id="appstore-btn">
-            <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.42c1.32.07 2.24.82 3.02.85.93-.17 1.82-.94 3.17-.84 1.45.12 2.56.7 3.26 1.83-2.92 1.76-2.42 5.75.24 6.94-.56 1.45-1.3 2.87-1.69 4.08zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-            <div><div class="store-label">Download on the</div><div class="store-name">App Store</div></div>
+  <!-- =========================================================================
+       INVESTORS & MENTORS SECTION
+       ========================================================================= -->
+  <section class="investors-section" id="investors">
+    <div class="container">
+      <div class="investors-header">
+        <h2 class="serif-title">Our Investors & Mentors</h2>
+        <div class="vc-funds-row">
+          <span class="vc-badge">3One4 Capital</span>
+          <span class="vc-badge">9Unicorns</span>
+          <span class="vc-badge">Eximius</span>
+          <span class="vc-badge">Root Ventures</span>
+          <span class="vc-badge">Blume</span>
+        </div>
+      </div>
+
+      <div class="leaders-grid">
+        <!-- Leader 1 -->
+        <div class="leader-item">
+          <div class="leader-avatar">VS</div>
+          <div class="leader-name">Vijay Shekhar Sharma</div>
+          <div class="leader-role">Founder & CEO, Paytm</div>
+        </div>
+
+        <!-- Leader 2 -->
+        <div class="leader-item">
+          <div class="leader-avatar">KS</div>
+          <div class="leader-name">Kunal Shah</div>
+          <div class="leader-role">Founder & CEO, CRED</div>
+        </div>
+
+        <!-- Leader 3 -->
+        <div class="leader-item">
+          <div class="leader-avatar">RA</div>
+          <div class="leader-name">Ritesh Agarwal</div>
+          <div class="leader-role">Founder & CEO, OYO</div>
+        </div>
+
+        <!-- Leader 4 -->
+        <div class="leader-item">
+          <div class="leader-avatar">AG</div>
+          <div class="leader-name">Ashneer Grover</div>
+          <div class="leader-role">Founder & CEO, BharatPe</div>
+        </div>
+
+        <!-- Leader 5 -->
+        <div class="leader-item">
+          <div class="leader-avatar">LK</div>
+          <div class="leader-name">Lalit Keshre</div>
+          <div class="leader-role">Founder & CEO, Groww</div>
+        </div>
+
+        <!-- Leader 6 -->
+        <div class="leader-item">
+          <div class="leader-avatar">AH</div>
+          <div class="leader-name">Ashish Hemrajani</div>
+          <div class="leader-role">Founder, BookMyShow</div>
+        </div>
+
+        <!-- Leader 7 -->
+        <div class="leader-item">
+          <div class="leader-avatar">GG</div>
+          <div class="leader-name">Gaurav Gupta</div>
+          <div class="leader-role">Co-founder, Zomato</div>
+        </div>
+
+        <!-- Leader 8 -->
+        <div class="leader-item">
+          <div class="leader-avatar">AB</div>
+          <div class="leader-name">Aloke Bajpai</div>
+          <div class="leader-role">Founder & CEO, ixigo</div>
+        </div>
+
+        <!-- Leader 9 -->
+        <div class="leader-item">
+          <div class="leader-avatar">NM</div>
+          <div class="leader-name">Nitish Mittersain</div>
+          <div class="leader-role">Founder & CEO, Nazara</div>
+        </div>
+
+        <!-- Leader 10 -->
+        <div class="leader-item">
+          <div class="leader-avatar">SN</div>
+          <div class="leader-name">Sandeep Nailwal</div>
+          <div class="leader-role">Co-founder, Polygon</div>
+        </div>
+
+        <!-- Leader 11 -->
+        <div class="leader-item">
+          <div class="leader-avatar">AH</div>
+          <div class="leader-name">Abhay Hanjura</div>
+          <div class="leader-role">Co-founder, Licious</div>
+        </div>
+
+        <!-- Leader 12 -->
+        <div class="leader-item">
+          <div class="leader-avatar">JG</div>
+          <div class="leader-name">Jitendra Gupta</div>
+          <div class="leader-role">Founder & CEO, Jupiter</div>
+        </div>
+      </div>
+
+      <div class="investors-more-tag">+15 More Prominent Indian Leaders & Angels</div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FEATURED IN / PRESS RELEASES CAROUSEL
+       ========================================================================= -->
+  <section class="press-section" id="press">
+    <div class="container">
+      <div class="section-head-center" style="margin-bottom: 24px;">
+        <span class="section-tag">Media & Recognition</span>
+        <h2 class="serif-title section-headline">Featured In</h2>
+      </div>
+
+      <div class="press-carousel-wrapper">
+        <button class="carousel-nav-btn prev" id="press-prev" aria-label="Previous article">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="press-track" id="press-track">
+          <!-- Slide 1 -->
+          <article class="press-card">
+            <div class="press-card-img-wrap">
+              <img src="images/press-cover-1.jpg" alt="Economic Times coverage" loading="lazy" />
+            </div>
+            <span class="press-publisher-badge">The Economic Times</span>
+            <h3 class="press-card-title">Vivah introduces India's first AI-driven Vedic Matchmaker for high-intent marriages</h3>
+            <p class="press-card-snippet">
+              Combining ancient 36-point Guna Milan with state-of-the-art behavioral neural models, Vivah is redefining how India's professionals discover lifelong compatibility.
+            </p>
+            <a href="#press" class="press-card-link">Read full story →</a>
+          </article>
+
+          <!-- Slide 2 -->
+          <article class="press-card">
+            <div class="press-card-img-wrap">
+              <img src="images/hero-bg.jpg" alt="NDTV Profit coverage" loading="lazy" />
+            </div>
+            <span class="press-publisher-badge">NDTV Profit</span>
+            <h3 class="press-card-title">Why India's Gen Z and Millennials are abandoning casual swiping for verified matrimony</h3>
+            <p class="press-card-snippet">
+              Fatigued by endless superficial swiping, accomplished young professionals in Delhi, Mumbai, and Bengaluru turn to privacy-first, verified matchmaking platforms.
+            </p>
+            <a href="#press" class="press-card-link">Read full story →</a>
+          </article>
+
+          <!-- Slide 3 -->
+          <article class="press-card">
+            <div class="press-card-img-wrap">
+              <img src="images/about-us.jpg" alt="Fortune India coverage" loading="lazy" />
+            </div>
+            <span class="press-publisher-badge">Fortune India</span>
+            <h3 class="press-card-title">Vedic Wisdom meets Machine Learning: How Vivah is solving modern marriage challenges</h3>
+            <p class="press-card-snippet">
+              From family values to astrological alignment, Vivah's intelligent concierge service bridges generational trust with modern individual choice.
+            </p>
+            <a href="#press" class="press-card-link">Read full story →</a>
+          </article>
+
+          <!-- Slide 4 -->
+          <article class="press-card">
+            <div class="press-card-img-wrap">
+              <img src="images/founders-showcase.jpg" alt="Moneycontrol coverage" loading="lazy" />
+            </div>
+            <span class="press-publisher-badge">Moneycontrol</span>
+            <h3 class="press-card-title">Inside Vivah's 100% ID-verified invite-only approach to modern Indian matrimony</h3>
+            <p class="press-card-snippet">
+              By enforcing strict Aadhaar/passport verification and community vouching, Vivah boasts a 0% fake profile rate across its high-income member base.
+            </p>
+            <a href="#press" class="press-card-link">Read full story →</a>
+          </article>
+
+          <!-- Slide 5 -->
+          <article class="press-card">
+            <div class="press-card-img-wrap">
+              <img src="images/feature-curated.jpg" alt="Inc42 coverage" loading="lazy" />
+            </div>
+            <span class="press-publisher-badge">Inc42</span>
+            <h3 class="press-card-title">Shark Tank fame leaders back Vivah in expanding India's premier AI matchmaking network</h3>
+            <p class="press-card-snippet">
+              Top unicorn founders and tier-1 venture capital funds back the mission to build India's most trusted, serious matrimonial sanctuary.
+            </p>
+            <a href="#press" class="press-card-link">Read full story →</a>
+          </article>
+        </div>
+
+        <button class="carousel-nav-btn next" id="press-next" aria-label="Next article">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       GRAND ROYAL FOOTER & INSTANT CALLBACK CONCIERGE
+       ========================================================================= -->
+  <footer class="royal-footer" id="contact-us">
+    <div class="container">
+      <div class="footer-brand-hero">
+        <div class="footer-logo">Vivah ✦</div>
+        <div class="footer-tagline">Handpicked • Verified • Private</div>
+      </div>
+
+      <div class="footer-contact-row">
+        <!-- Left: Address and Contacts -->
+        <div class="footer-address-col">
+          <div class="contact-info-block">
+            <div class="contact-info-icon">📍</div>
+            <div class="contact-info-text">
+              <strong>Executive Office</strong><br />
+              Tower B, 7th Floor, DLF Cyber City,<br />
+              Gurgaon, NCR Delhi, 122002
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <div class="contact-info-icon">✉️</div>
+            <div class="contact-info-text">
+              <strong>Concierge Desk</strong><br />
+              concierge@vivah.in<br />
+              support@vivah.in
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <div class="contact-info-icon">⏰</div>
+            <div class="contact-info-text">
+              <strong>Relationship Advisory Hours</strong><br />
+              Monday – Sunday: 9:00 AM – 9:00 PM IST
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Callback Request Form -->
+        <div class="callback-form-card" id="download">
+          <h3>Leave your number and we'll call you shortly</h3>
+          <form class="callback-form" id="callback-form">
+            <input type="text" class="form-input" id="user-name" placeholder="Your Full Name" required />
+            <input type="tel" class="form-input" id="user-phone" placeholder="Mobile Number (e.g. +91 98765 43210)" required />
+            <button type="submit" class="btn-submit-callback" id="submit-callback-btn">
+              Request a Call Back
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-nav-row">
+        <ul class="footer-links-list">
+          <li><a href="#about-us">About Vivah</a></li>
+          <li><a href="#ai-matchmaker">AI Technology</a></li>
+          <li><a href="#why-vivah">Privacy & Security</a></li>
+          <li><a href="#">Vedic Astrological Guide</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+
+        <div class="app-badges-row">
+          <a href="#" class="app-badge-btn" id="footer-apple-btn">
+            <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 1.01-2.87-.96.04-2.13.65-2.79 1.41-.58.65-1.09 1.73-1.02 2.78 1.08.08 2.18-.57 2.8-1.32z"/></svg>
+            <div>
+              <div class="app-badge-text-sub">Download on the</div>
+              <div class="app-badge-text-main">App Store</div>
+            </div>
           </a>
-          <a href="#" class="store-btn" id="playstore-btn">
-            <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/></svg>
-            <div><div class="store-label">Get it on</div><div class="store-name">Google Play</div></div>
+
+          <a href="#" class="app-badge-btn" id="footer-play-btn">
+            <svg viewBox="0 0 24 24"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/></svg>
+            <div>
+              <div class="app-badge-text-sub">Get it on</div>
+              <div class="app-badge-text-main">Google Play</div>
+            </div>
           </a>
         </div>
-        <div class="download-note">Free to download · No credit card required · Available in India</div>
       </div>
-    </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <div class="footer-logo">🕉️ Vivah <span class="footer-logo-badge">ROYAL</span></div>
-        <p class="footer-tagline">Vedic Matchmaking & 18+ Verified Connections</p>
-        <div class="footer-socials">
-          <a href="#" class="social-link" aria-label="Instagram">📸</a>
-          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
-          <a href="#" class="social-link" aria-label="YouTube">▶️</a>
-          <a href="#" class="social-link" aria-label="Facebook">📘</a>
-        </div>
+      <div class="footer-legal-copy">
+        © 2026 Vivah Matchmaking Technologies Pvt. Ltd. All Rights Reserved. Made with ❤️ for India.
       </div>
-      <div class="footer-links-group"><h5>Product</h5><ul><li><a href="#features">Features</a></li><li><a href="#how-it-works">How It Works</a></li><li><a href="#vouch">Community Vouch</a></li><li><a href="#trust">Trust & Safety</a></li></ul></div>
-      <div class="footer-links-group"><h5>Company</h5><ul><li><a href="#">About Us</a></li><li><a href="#">Blog</a></li><li><a href="#">Careers</a></li><li><a href="#">Press</a></li></ul></div>
-      <div class="footer-links-group"><h5>Legal</h5><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Safety Guidelines</a></li><li><a href="#">Contact Us</a></li></ul></div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 Vivah. All rights reserved. Made with ❤️ in India.</p>
-      <p class="footer-note">18+ Only · Government ID Verified Platform</p>
     </div>
   </footer>
+
+  <!-- Toast Notification Modal -->
+  <div class="vivah-toast" id="vivah-toast">
+    <div style="font-size: 1.5rem;">✅</div>
+    <div>
+      <strong style="display: block; font-size: 0.95rem;">Request Received!</strong>
+      <span style="font-size: 0.85rem; color: #555;">Our Match Advisor will call you within 15 minutes.</span>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
